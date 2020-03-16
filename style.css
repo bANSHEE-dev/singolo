@@ -270,9 +270,6 @@ h2 {
 
   font-weight: 800;
 }
-.photo {
-  width: 285px;
-}
 
 .photo:nth-child(3) {
   padding-right: 40px;
@@ -417,6 +414,29 @@ textarea::-webkit-input-placeholder {
 
 }
 
+.btn__submit {
+  position: absolute;
+  top: 90%;
+  left: 40px;
+  width: 136px;
+  height: 38px;
+  padding: 11px 40px;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #686fff;
+  background-color: #FBC65F;
+  border: 1px solid #f48c8f;
+  transition: all 0.3s ease-in;
+}
+
+.btn__submit:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: inherit;
+}
+
 .flexbox {
   display: inline-flex;
 }
@@ -454,6 +474,11 @@ h4 {
 .contacts img {
   padding-right: 12px;
   padding-top: 6px;
+}
+
+.contacts a {
+  text-decoration: none;
+  color: #f0d8d9;
 }
 
 .location {
@@ -524,4 +549,5 @@ footer {
   right: 21px;
   bottom: 10px;
   width: 188px;
+  cursor: pointer;
 }
