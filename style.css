@@ -5,10 +5,11 @@
   box-sizing: border-box;
 }
 
-body {
+body, html {
   margin: auto;
   font-family:  'Lato', 'Verdana', serif;
   font-size: 12px;
+  scroll-behavior: smooth;
 }
 
 section {
@@ -19,7 +20,9 @@ section {
 header {
   height: 95px;
   background-color: #2d303a;
-  position: relative;
+  position: fixed;
+  width: 1020px;
+  z-index: 99999;
 }
 
 .header__logo {
@@ -47,7 +50,7 @@ li {
   padding-left: 20px;
 }
 
-.selected a {
+.active a {
   color: #f06c64;
 }
 
@@ -80,7 +83,7 @@ li {
   align-items: center;
   justify-content: center;
   width: 1020px;
- 
+  padding-top: 95px;
 }
 
 .arrow-right {
@@ -162,7 +165,8 @@ section {
 
 .portfolio {
   background-color: #2d303a;
-  padding-bottom: 667px;
+  overflow: hidden;
+  padding-bottom: 25px;
 }
 .wrapper {
   margin: auto;
