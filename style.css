@@ -14,6 +14,7 @@ body, html {
 
 section {
   max-width: 1020px;
+  margin: 0 auto;
 }
 
 
@@ -555,3 +556,70 @@ footer {
   width: 188px;
   cursor: pointer;
 }
+
+
+ /*--------- Media ---------*/
+
+ @media(max-width: 768px) {
+   section {
+     max-width: 768px;
+   }
+   header {
+     position: relative;
+     max-width: 768px;
+   }
+   .header__bottom {
+    max-width: 768px;
+   }
+   .aboutus__bottom {
+     max-width: 78px;
+   }
+   .slider__phones {
+     max-width: 768px;
+   }
+   .container__phoneV {
+    width: 156px;
+    height: 340px;
+    margin-left: 30px;
+    margin-top: -60px;
+    }
+    .container__phoneH {
+      width: 340px;
+      height: 156px;
+      margin-right: 39px;
+      margin-top: 30px;
+  
+    }
+    .arrow-left {
+      margin-left: 250px;
+      margin-top: -55px;
+    }
+    .arrow-right {
+      margin-right: 282px;
+      margin-bottom: 80px;
+    }
+    .container__phone-bottom {
+      max-width: 768px;
+    }
+    .portfolio__bottom {
+      max-width: 768px;
+    }
+    .bottom__border {
+      max-width: 768px;
+    }
+    .photo {
+      margin-right: 20px;
+    }
+    .photo img {
+      width: 220px;
+      height: 220px;
+    }
+    .contact__adress {
+      width: 100px;
+    }
+    form {
+      width: 200px;
+      margin-left: 40px;
+    }
+   }
+
