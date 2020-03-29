@@ -1,4 +1,3 @@
 # singolo
 
-https://banshee-dev.github.io/
-https://singolo.github.io/
+https://banshee-dev.github.io/singolo/
